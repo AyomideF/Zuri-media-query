@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+
+    box-sizing: border-box;
+}
+
+
+/* for mobile view */
+@media screen and (max-width:375px) {
+    
+}
+/* for desktop view */
+@media screen and (max-width:1440px) {
+}    
+    
+
+body{
+    background-image: url('/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    color: #fff;
+    font-family: 'Poppins';
+    display: flex;
+}
+
+main{
+    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px; 
+    
+}
+.container > div {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 50px;
+}
